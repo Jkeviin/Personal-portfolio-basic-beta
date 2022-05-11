@@ -10,6 +10,7 @@ html{
 
 
 * {
+  font-weight: bold;
   margin: 0;  
   padding: 0; 
   box-sizing: border-box;
@@ -22,13 +23,12 @@ body {
 
 .wrapper{ 
   width: 100vw;
-  height: 90vh;
   background-color: rgb(25, 28, 50);
   color: #ffff;
 }
 
 .navbar { /* navegador */
-  background-color: #000000;
+  background-color: #171a2d;
   z-index: 2;
   display: flex;
   justify-content: space-between; 
@@ -80,11 +80,12 @@ body {
 
 .main{
   margin: 0 auto; /* centra el contenido */
-  width: 80vw;
+  width: 85vw;
   height: 70vh;
   display: grid; 
   grid-template-columns: repeat(2, 1fr); /* repite 2 columnas */
-  align-items: center; /* alinea los elementos */
+  align-items: center;
+  font-weight: bold;
 }
 
 h1{ /* titulo */
@@ -117,6 +118,8 @@ span{
 
 .main img{
   width: 350px;
+  margin: 0 auto;
+  bottom: 0px;
   border: 7px solid aqua;  
 }
 
