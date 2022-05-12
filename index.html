@@ -230,10 +230,10 @@
         
         <div class="contact-form">
           <h4>Send me a message...</h4>
-            <form class="form" action="https://formsubmit.co/slash2130kevin@gmail.com" method="POST" target="_blank">   <!-- Formulario -->
-            <input type="text" placeholder="Name"> <!-- Campo -->
-            <input type="email" placeholder="Email"> <!-- Campo -->
-            <textarea placeholder="Place your message here..."></textarea> <!-- Campo -->
+            <form class="form" netlify method="POST">   <!-- Formulario -->
+            <input name="name" type="text" placeholder="Name"> <!-- Campo -->
+            <input name="email" type="email" placeholder="Email"> <!-- Campo -->
+            <textarea name="text" placeholder="Place your message here..."></textarea> <!-- Campo -->
             <button type="sumbit" class="btn-submit">
               Send Message</button> <!-- Botón -->
           </form>
